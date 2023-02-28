@@ -31,3 +31,29 @@ You can use them for a variety of workloads, such as:
   * Data warehousing.
   * High-frequency online transaction processing.
 * **HPC Optimized**: High performance computing (HPC) instances are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
+
+#### EC2 Pricing
+
+* **On-Demand**
+   * Are ideal for short-term, irregular workloads that cannot be interrupted.
+   * The instance runs continuously until you stop them, and you pay for only the compute time you use.
+   * No longer-term commitments or upfront payments are needed.
+   * You can increase or decrease your compute capacity depending on the demands of your application and only pay the specified per hourly rates for the instance you use.
+* **Savings Plans**
+   * Enable you to reduce your compute costs by committing to a consistent amount of compute usage for a 1-year or 3-year term. This term commitment results in savings of up to 72% over On-Demand costs.
+   * Any usage up to the commitment is charged at the discounted Saving Plan rate.
+   * Any usage beyond the commitment is charged at regular On-Demand rates.
+   * They apply to Fargate, Lambda and EC2.
+* **Spot Instances**: Are ideal for workloads with flexible start and end times, or that can withstand interruptions. Spot instances use unused Amazon EC2 computing capacity and offer you cost savings at up to 90% off of On-Demand prices.
+* **Dedicated Hosts**: Are physical servers with Amazon EC2 instances capacity that is fully dedicated to your use. You can use your existing oer-socket, per-core, or per-VM software licenses to help maintain license compliance. Dedicated Hosts are the most expensive.
+* **Reserved Instances (RI)**
+   * Are billed discounts <ins>applied to the use of On-Demand instances</ins> in your account.
+   * Can apply to usage across all Availability Zones in an AWS region, or can provide a capacity reservation when assigned to a specific Availability Zone.
+   * At the end of the reserved instance term, you can continue using the Amazon EC2 instance without interruption. However, you are charged On-Demand rates until you either terminate the instance or purchase a new reserved instance that matches the instance attributes (type, region, platform).
+   * You can purchase **Standard RIs** and **Convertible RIs** for a 1-year or 3-year term, and **Scheduled RIs** for a 1-year term.
+   
+##### Amazon EC2 RI instance types   
+   * **Standard RIs**: These provide the most significant discount (up to 72% off On-Demand) and are best suited for steady-state usage.
+   * **Convertible RIs**: Change instance families, operating system, tenancy, and payment option as long as the exchange results in the creation of Reserved Instances of equal or greater value.
+   * **Scheduled RIs** These are available to launch within the time windows you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.
+  
