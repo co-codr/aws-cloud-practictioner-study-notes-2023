@@ -33,14 +33,3 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 Q: How does the scale of cloud computing help you to save costs?  
 A: The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
-
-## Module 2: Compute in the Cloud
-Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
-
-### Elastic Cloud Computing (EC2)
-EC2 runs on top of physical host machines managed by AWS using virtualization technology.
-
-#### EC2 characteristics
-* **Multitenancy**: A hypervisor running on the host machine is responsible for <ins>sharing the underlying physical resources between the virtual machines</ins>.  
-* **Vertical Scaling**: EC2 instances are also resizable. You can increase or decrease memory and CPU.  
-* **CaaS**: Compute as a Service model: AWS made it easier and more cost effective for you to acquire virtual machines.
