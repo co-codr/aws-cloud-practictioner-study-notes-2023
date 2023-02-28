@@ -1,15 +1,15 @@
-## Module 2: Compute in the Cloud
+# Module 2: Compute in the Cloud
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
 
-### Elastic Cloud Computing (EC2)
+## Elastic Cloud Computing (EC2)
 EC2 runs on top of physical host machines managed by AWS using virtualization technology. Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances. Instance types are optimal for different tasks.
 
-#### EC2 characteristics
+### EC2 characteristics
 * **Multitenancy**: A hypervisor running on the host machine is responsible for <ins>sharing the underlying physical resources between the virtual machines</ins>.  
 * **Vertical Scaling**: EC2 instances are also resizable. You can increase or decrease memory and CPU.  
 * **Compute as a Service (CaaS)**: AWS made it easier and more cost effective for you to acquire virtual machines.
 
-#### EC2 instance types
+### EC2 instance types
 * **General Purpose**: Provide a balance of compute, memory and networking resources.  
 You can use them for a variety of workloads, such as: 
     * Application Servers.
@@ -32,7 +32,7 @@ You can use them for a variety of workloads, such as:
   * High-frequency online transaction processing.
 * **HPC Optimized**: High performance computing (HPC) instances are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
 
-#### EC2 Pricing
+### EC2 Pricing
 
 * **On-Demand**
    * Are ideal for short-term, irregular workloads that cannot be interrupted.
@@ -52,7 +52,7 @@ You can use them for a variety of workloads, such as:
    * At the end of the reserved instance term, you can continue using the Amazon EC2 instance without interruption. However, you are charged On-Demand rates until you either terminate the instance or purchase a new reserved instance that matches the instance attributes (type, region, platform).
    * You can purchase **Standard RIs** and **Convertible RIs** for a 1-year or 3-year term, and **Scheduled RIs** for a 1-year term.
    
-##### Amazon EC2 RI instance types   
+#### Amazon EC2 RI instance types   
    * **Standard RIs**: These provide the most significant discount (up to 72% off On-Demand) and are best suited for steady-state usage.
    * **Convertible RIs**: Change instance families, operating system, tenancy, and payment option as long as the exchange results in the creation of Reserved Instances of equal or greater value.
    * **Scheduled RIs** These are available to launch within the time windows you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.
